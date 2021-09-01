@@ -1,0 +1,13 @@
+{
+    "name": "Container",
+    "description": "This is a layout component of container.",
+    "group": "commerce_layouts",
+    "attribute_definition_groups": [],
+    "region_definitions": [
+        {
+            "id":"row",
+            "name":"Row",
+            "component_type_exclusions": []
+        }
+    ]
+}

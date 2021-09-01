@@ -1,0 +1,38 @@
+{
+    "name": "Hero with CTA",
+    "description": "Hero with title, image, copy and CTA button",
+    "group": "commerce_assets",
+    "attribute_definition_groups": [
+    {
+      "id": "heroSubTitleSection",
+      "name": "Hero title",
+      "description": "The message to be displayed on the Sub Title.",
+      "attribute_definitions": [
+      {
+        "id": "heroTitle",
+        "name": "Title",
+        "description": "The message to be displayed on the title.",
+        "type": "string",
+        "required": true
+      }]
+    },
+    {
+      "id": "heroCTASection",
+      "name": "Hero Call To Action",
+      "description": "The CTA to be displayed on the hero.",
+      "attribute_definitions": [
+      {
+        "id": "heroCTALink",
+        "name": "Button Link",
+        "description": "CTA's link.",
+        "type": "url"
+      },
+      {
+        "id": "heroCTAText",
+        "name": "Button Link Caption",
+        "description": "CTA's Caption.",
+        "type": "string"
+      }]
+    }],
+    "region_definitions": []
+  }

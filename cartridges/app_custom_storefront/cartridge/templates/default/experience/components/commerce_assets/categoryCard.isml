@@ -1,0 +1,40 @@
+<isscript>
+    var assets = require('*/cartridge/scripts/assets.js');
+    assets.addCss('/css/experience/components/commerceAssets/categoryCard.css');
+</isscript>
+
+<div class="col-12 p-0 mb-3 text-center">
+    <a href="${pdict.category.url}">
+        <isif condition="${pdict.image}">
+            <style >
+                .image-wrapper-${pdict.category.compID}{
+                    background-image: url('${pdict.image.src.desktop}');
+                }
+            </style>
+            <div class="image-wrapper image-wrapper-${pdict.category.compID}">
+
+            </div>
+        <iselse>
+            <div class="image-wrapper"
+                <isif condition="${pdict.category.imageURL}">
+                    style="background-image: url(${pdict.category.imageURL});
+                    <isif condition="${pdict.category.imagesize}">
+                        background-size: ${pdict.category.imagesize};
+                    </isif>
+                    <isif condition="${pdict.category.offset}">
+                        background-position: ${pdict.category.offset};
+                    </isif>
+                    "
+                </isif>
+            >
+                <span class="background-image" role="img" aria-label="${pdict.category.name}"></span>
+            </div>
+
+        </isif>
+    </a>
+    <h2>${pdict.category.name}</h2>
+    <a href="${pdict.category.url}" class="btn-white btn mb-3">Shop The Brand</a>
+
+</div>
+
+

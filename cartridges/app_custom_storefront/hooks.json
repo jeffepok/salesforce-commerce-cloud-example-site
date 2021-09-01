@@ -1,0 +1,23 @@
+{
+
+    "hooks": [
+
+        {
+
+            "name": "app.payment.processor.jey_payment_card",
+
+            "script": "./cartridge/scripts/hooks/payment/processor/JEY_PAYMENT_CARD"
+
+        },
+
+        {
+
+            "name": "app.payment.form.processor.jey_payment_card",
+
+            "script": "./cartridge/scripts/hooks/payment/processor/JEY_PAYMENT_CARD_form_processor"
+
+        }
+
+    ]
+
+}

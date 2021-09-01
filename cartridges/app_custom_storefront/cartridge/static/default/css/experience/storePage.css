@@ -1,0 +1,57 @@
+body {
+  font-family: "Georama"; }
+
+html {
+  font-size: 0.875rem;
+  font-family: "Georama"; }
+
+@media (min-width: 544px) {
+  html {
+    font-size: 1rem; } }
+
+@media (min-width: 769px) {
+  html {
+    font-size: 1.125rem; } }
+
+h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  font-family: "Georama"; }
+
+h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: "Georama"; }
+
+h3 {
+  font-size: 1.67rem;
+  font-weight: 900;
+  font-family: "Georama";
+  text-align: center; }
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Georama"; }
+
+h5 {
+  font-weight: 600;
+  font-family: "Georama"; }
+
+.storepage {
+  width: 100%; }
+
+.home-email-signup {
+  background-color: #444; }
+
+.home-email-signup > .container {
+  padding-top: 0.625em;
+  padding-bottom: 0.625em; }
+
+.home-email-signup .email-description {
+  padding-top: 0.375em;
+  color: #fff; }
+
+body {
+  overflow-x: hidden;
+  font-family: 'Arial, sans-serif'; }

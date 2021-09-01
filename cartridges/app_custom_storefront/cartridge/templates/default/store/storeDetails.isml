@@ -1,0 +1,3 @@
+<isset name="store" value="${pdict}" scope="page"/>
+<isinclude template="storeLocator/storeDetails" />
+<input type="hidden" name="storeId" value="${pdict.ID}" />

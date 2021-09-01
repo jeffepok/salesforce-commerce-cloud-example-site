@@ -1,0 +1,20 @@
+@import "variables";
+@import "~base/experience/experienceGlobal";
+
+.storepage {
+    width: 100%;
+}
+
+.home-email-signup {
+    background-color: #444; }
+    .home-email-signup > .container {
+      padding-top: 0.625em;
+      padding-bottom: 0.625em; }
+    .home-email-signup .email-description {
+      padding-top: 0.375em;
+      color: #fff; 
+}
+body{
+  overflow-x: hidden;
+  font-family: 'Arial, sans-serif';
+}

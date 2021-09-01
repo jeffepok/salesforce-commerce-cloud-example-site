@@ -1,0 +1,12 @@
+<div class="container hero-cta-wrapper">
+  <div class="row">
+    <div class="campaign-banner-container col-10 col-sm-6">
+      <div class="campaign-banner-message">
+        <h2 class="title">${pdict.heroTitle}</h2>
+        <isif condition="${pdict.heroCTALink && pdict.heroCTAText}">
+          <a class="cta-button btn btn-primary" href="${pdict.heroCTALink}">${pdict.heroCTAText}</a>
+        </isif>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+@import "~base/components/header";
+
+.brand {
+    position: absolute;
+    left: 50%;
+    display: block;
+    text-align: center;
+
+    img {
+        width: 100%;
+    }
+
+    @include media-breakpoint-up(lg) {
+        width: 14.125em; /* 226/16 */
+        margin-left: -7.0625em; /* 113/16 */
+        padding-top: 0.5em;
+    }
+
+    @include media-breakpoint-down(md) {
+        width: 10em; /* 64/16 */
+        margin-left: -5em;
+        padding-top: 0.8em;
+    }
+}
+
+.main-menu{
+    background-color: var(--skin-banner-background-color-2);
+}
